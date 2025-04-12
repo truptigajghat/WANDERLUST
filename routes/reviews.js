@@ -6,7 +6,7 @@ const {listingSchema, reviewSchema} = require("../schema");
 const Review = require("../models/review");
 const Listing = require("../models/listing");
 const { isLoggedIn, isReviewOwner, validateReview } = require("../middleware");
-const User = require("../models/users");
+const User = require("../models/user");
 const reviewConntroller = require("../controllers/reviews");
 
 
